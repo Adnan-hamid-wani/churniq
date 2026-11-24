@@ -2,7 +2,7 @@
 
 ChurnIQ is a Streamlit portfolio project for exploring telecom customer churn, comparing classifiers, and scoring individual customers or CSV batches. The public IBM sample contains 7,043 customer records with 26.5% observed churn.
 
-**Live demo** · `https://<your-app>.streamlit.app`
+**Live demo** · [Open ChurnIQ](https://churniq-eurmtxhfc7qnwwwhmbs8ne.streamlit.app/)
 
 **GitHub** · [Adnan-hamid-wani/churniq](https://github.com/Adnan-hamid-wani/churniq)
 
@@ -126,6 +126,6 @@ Keep the fitted pipeline and its metrics in the same commit. The fitted forest i
 3. Select the `churniq` repository, branch `main`, and main file path `app.py`.
 4. In **Advanced settings**, select Python 3.12. Leave secrets blank and select **Deploy**.
 5. Confirm that the overview loads. Submit the default customer in **Predict Churn**, check that **Model Performance** shows the measured results, and upload `docs/demo_batch.csv` in **Batch Predictions** to verify the CSV download.
-6. Open the resulting `.streamlit.app` URL in a signed-out browser to confirm public access. Add that URL and the real repository URL to the placeholders in this README.
+6. Open the resulting `.streamlit.app` URL in a signed-out browser to confirm public access. If you deploy a separate copy, update its demo and repository links in the README.
 
 [Official Community Cloud deployment instructions](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy)
